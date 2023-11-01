@@ -62,6 +62,7 @@ public abstract class Shape {
      * (see Rectangle::area() and Circle::area() for implementations)
      */
     public abstract double area();   // no method body allowed
+    public abstract double perimeter();
 
 
     // methods common to all Shape objects

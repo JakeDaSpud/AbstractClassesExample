@@ -35,6 +35,12 @@ public class Circle extends Shape {
         return Math.PI * this.radius * this.radius;
     }
 
+    //
+    @Override
+    public double perimeter() {
+        return 2 * (Math.PI * this.radius);
+    }
+
     // add some getter and setters to access the field defined in Circle
     // Note that the getters and setters for x and y fields are inherited from Shape
     // and so it is possible to call getX() and getY() on a Circle type object
